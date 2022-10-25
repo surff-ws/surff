@@ -1,8 +1,10 @@
 [package]
 name = "surff"
 version = "0.1.0"
-authors = ["Oktay KÖSE <https://github.com/oktaykose/>"]
+authors = ["Oktay KÖSE <oktaykose13@gmail.com>"]
 edition = "2021"
+description = "web server"
+license = "MIT"
 
 [dependencies]
 

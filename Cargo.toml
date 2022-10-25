@@ -1,5 +1,13 @@
-[workspace]
+[package]
+name = "surff"
+version = "0.1.0"
+authors = ["Oktay KÖSE <https://github.com/oktaykose/>"]
+edition = "2021"
 
-members= [
-"server",
-]
+[dependencies]
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
